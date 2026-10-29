@@ -6,11 +6,17 @@ The skill is for station identity and siting research. It is not a weather forec
 
 ## Install
 
-You need an agent that supports Agent Skills. In your agent's chat, send:
+You need an agent that supports Agent Skills.
+
+### Ask your agent
+
+In your agent's chat, send:
 
 > Install the meteorological station evidence skill from https://github.com/dnstudent/meteorological-station-evidence for use across my projects. Keep its supporting files together with the skill.
 
 Follow any prompts from your agent. Once installation is complete, start a new chat if your agent needs one to discover newly installed skills. You can ask the agent to confirm that `meteorological-station-evidence` is available.
+
+### Alternative: use the CLI
 
 If you prefer to use a terminal, install with the [`skills` CLI](https://github.com/vercel-labs/skills):
 
@@ -53,3 +59,7 @@ The intended deliverables are a cited Markdown report, an editable `.geolibre.js
 ## Guidance for agents
 
 Read [SKILL.md](SKILL.md) for the complete workflow and use its linked references when relevant. Preserve supplied coordinates and elevations literally, identify sources and dates, and distinguish observed evidence from interpretation. Consult the Italian source preset selectively by geography, network, and period; it is not a checklist or an exhaustive source list. Load the installed GeoLibre skill before map work. Do not invent a location or claim to have inspected material or map controls that were unavailable.
+
+## License
+
+This repository is licensed under the [GNU Affero General Public License, version 3](LICENSE) (AGPL-3.0-only).
