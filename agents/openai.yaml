@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meteorological Station Evidence"
+  short_description: "Research historical station sites and elevations"
+  default_prompt: "Use $meteorological-station-evidence to investigate the historical records, site, coordinates, and elevation of this meteorological station, with a cited report and GeoLibre map."
