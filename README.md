@@ -12,7 +12,7 @@ You need an agent that supports Agent Skills.
 
 In your agent's chat, send:
 
-> Install the meteorological station evidence skill from https://github.com/dnstudent/meteorological-station-evidence for use across my projects. Keep its supporting files together with the skill.
+> Install the geolibre skill from https://geolibre.app/agent-skill/ and the meteorological station evidence skill from https://github.com/dnstudent/meteorological-station-evidence for use across my projects.
 
 Follow any prompts from your agent. Once installation is complete, start a new chat if your agent needs one to discover newly installed skills. You can ask the agent to confirm that `meteorological-station-evidence` is available.
 
